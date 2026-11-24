@@ -1,0 +1,38 @@
+[
+    {
+        "id": 67064,
+        "nombre_tarea": "listar estado de tareas",
+        "descripcion_tarea": "realizar el listado de las tareas realizadas el dia de hoy",
+        "estado": false
+    },
+    {
+        "id": 92460,
+        "nombre_tarea": "verificar archivos",
+        "descripcion_tarea": "vericar los archivos dados en las reuniones con el cliente",
+        "estado": false
+    },
+    {
+        "id": 84359,
+        "nombre_tarea": "trabajar en codng del taskflow",
+        "descripcion_tarea": "realizar correcciones de llenado de bases de datos de task flow",
+        "estado": true
+    },
+    {
+        "id": 45789,
+        "nombre_tarea": "crear esprint",
+        "descripcion_tarea": "realizar los sprint correspondientes",
+        "estado": false
+    },
+    {
+        "id": 82002,
+        "nombre_tarea": "postman",
+        "descripcion_tarea": "realizar pruebas unitarias en postman\r\n",
+        "estado": false
+    },
+    {
+        "id": 53849,
+        "nombre_tarea": "iniciar sesion",
+        "descripcion_tarea": "iniciar sesion con los usuarios corresppndientes",
+        "estado": false
+    }
+]

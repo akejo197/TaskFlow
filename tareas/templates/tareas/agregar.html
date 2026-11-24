@@ -1,0 +1,27 @@
+{% extends "tareas/base.html" %}
+
+{% block title %}agregar_tarea{% endblock %}
+
+{% block content %}
+    <h2>agregar tarea</h2>
+
+<h2>Agregar tarea</h2>
+
+<form method="post">
+    {% csrf_token %}
+
+    <label>Nombre de la tarea:</label>
+    <input type="text" name="nombre_tarea">
+
+    <br><br>
+
+    <label>Descripción:</label>
+    <textarea name="descripcion_tarea"></textarea>
+
+    <br><br>
+
+    <button type="submit">Guardar</button>
+</form>
+{% endblock %}
+
+

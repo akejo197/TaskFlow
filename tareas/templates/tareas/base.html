@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TASKFLOW</title>
+    <h2>TASKFLOW</h2>
+</head>
+<body>
+    <header>
+        <h1>Sistema Gestor de Tareas</h1>
+
+        <nav>
+            <a href="{% url 'listar_tareas' %}">Listar tareas</a>
+            <a href="{% url 'estadisticas' %}">estadisticas</a>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <h3>Ideodiseño company</h3>
+    </footer>
+</body>
+</html>
