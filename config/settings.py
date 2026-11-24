@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'tareas',
+    'django_browser_reload',
 ]
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

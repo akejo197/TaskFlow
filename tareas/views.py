@@ -3,7 +3,7 @@ from .utilidades import cargar_tareas, guardar_tareas, generar_id
 
 
 def home(request):
-    return redirect('listar_tareas')
+    return render(request, "tareas/home.html")
 
 
 def listar_tareas(request):

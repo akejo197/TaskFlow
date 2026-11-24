@@ -1,12 +1,19 @@
+{% load static %}
+{% load django_browser_reload %}
+
 <!DOCTYPE html>
 <html>
 <head>
     <title>TASKFLOW</title>
-    <h2>TASKFLOW</h2>
+    
+    <link rel="stylesheet" href="{% static 'tareas/css/style.css' %}">
 </head>
 <body>
     <header>
-        <h1>Sistema Gestor de Tareas</h1>
+        <div class="encabezado">
+            <h1 class="titulo">TASKFLOW</h1>
+            <h2 class="subtitulo">Sistema Gestor de Tareas</h2>
+        </div>
 
         <nav>
             <a href="{% url 'listar_tareas' %}">Listar tareas</a>
@@ -22,5 +29,7 @@
     <footer>
         <h3>Ideodiseño company</h3>
     </footer>
+
+    {% django_browser_reload_script %}
 </body>
 </html>
